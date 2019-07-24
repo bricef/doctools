@@ -12,4 +12,6 @@ The `bin` repo contains the actual scripts, whilst the `tools` repo contains the
 
 `pinc.py` is a small script that will parse a text file for shell commands and special include statements to enable text inclusion and build more complex documents. I've found it to be a useful little script when collating multiple markdown files together before processing them with another tool like pandoc.
 
+## Future work
 
+- [ ] Rebuild pinc to use [Handlebars](https://handlebarsjs.com/) for a more complete and expressive option
