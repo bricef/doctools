@@ -9,10 +9,13 @@ RUN apt-get update && apt-get install -y \
   shared-mime-info \
   texlive-latex-base \
   texlive-latex-recommended \
+  texlive-fonts-recommended \
+  texlive-fonts-extra \
   texlive \
   texlive-luatex \
   texlive-pstricks \
   texlive-xetex \
+  python-pygments \
   pandoc
 
 RUN pip install WeasyPrint
