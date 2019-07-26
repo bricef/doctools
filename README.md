@@ -16,3 +16,11 @@ The `bin` repo contains the actual scripts, whilst the `tools` repo contains the
 
 - [ ] Rebuild pinc to use [Handlebars](https://handlebarsjs.com/) for a more complete and expressive option. In fact already has [the read file helper](https://github.com/helpers/handlebars-helpers#read).
 - [ ] Build a generic 'doctools' image that contains all doctools and let the scripts here be aliases for different tools in the image
+
+## Notes and prior art
+
+- https://pbpython.com/pdf-reports.html
+- https://github.com/dalibo/pandocker
+- https://github.com/Wandmalfarbe/pandoc-latex-template
+- https://github.com/aaronwolen/pandoc-letter
+- https://github.com/Wandmalfarbe/pandoc-latex-template
