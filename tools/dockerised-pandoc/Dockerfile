@@ -8,6 +8,11 @@ RUN apt-get update && apt-get install -y \
   libffi-dev \
   shared-mime-info \
   texlive-latex-base \
+  texlive-latex-recommended \
+  texlive \
+  texlive-luatex \
+  texlive-pstricks \
+  texlive-xetex \
   pandoc
 
 RUN pip install WeasyPrint
